@@ -303,26 +303,44 @@ button.btn-skyBlue {
         z-index: 1;
         top: 0;
         right: 0;
-        background-color: #111;
+        background-color: #13174c;
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;
     }
 
     .sidenav a {
-        padding: 8px 8px 8px 32px;
+        padding: 15px 15px 0px 30px;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 19px;
         color: #ffffff;
         display: block;
         transition: 0.3s;
     }
     
     .sidenav.open {
-        width: 250px;
+        width: 100%;
     }
+
+    .sidenav .close-icon {
+        position: absolute;
+        top: 15px;
+        right: 18px;
+        font-size: 25px;
+        color: white;
+    }
+
+    .sidenav ul {
+        padding-left: 0px;
+        list-style: none;
+    }
+        
 }
 
 /* mobile  */
 @media (max-width: 600px) {
+
+    .banner-img {
+        margin-top: 20px;
+    }
 }
