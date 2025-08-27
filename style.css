@@ -254,3 +254,75 @@ button.btn-skyBlue {
 .check-form .head p {
 
 }
+
+.mobile-header {
+    display: none;
+}
+
+/* desktop  */
+@media (max-width: 1920px) {
+}
+
+/* laptop  */
+@media (max-width: 1366px) {
+}
+
+/* tablet  */
+@media (max-width: 768px) {
+    .header {
+        display: none;
+    }
+
+    .mobile-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+    }
+
+    .mobile-header .logo {
+        border-bottom: 2px solid #17C2EC;
+        width: 50px;
+    }
+
+    .mobile-header .logo a {
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+    }
+
+    .mobile-header .menu-icon  {
+        font-size: 26px;
+        color: white;
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #ffffff;
+        display: block;
+        transition: 0.3s;
+    }
+    
+    .sidenav.open {
+        width: 250px;
+    }
+}
+
+/* mobile  */
+@media (max-width: 600px) {
+}
