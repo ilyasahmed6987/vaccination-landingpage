@@ -1,3 +1,8 @@
+/* Colors  */
+:root {
+    --sky-blue: #17C2EC;
+}
+
 body {
     font-family: 'Montserrat', sans-serif !important;
     overflow-x: hidden !important;
@@ -15,16 +20,16 @@ a {
 /* Custom buttons  */
 button.btn-tranparent {
     border-radius: 11px;
-    border: 1px solid #17C2EC;
+    border: 1px solid var(--sky-blue);
     background-color: #c4c4c42e;
-    color: #17C2EC;
+    color: var(--sky-blue);
     font-size: 16px;
 }
 
 button.btn-skyBlue {
     border-radius: 11px;
-    border: 1px solid #17C2EC;
-    background-color: #17C2EC;
+    border: 1px solid var(--sky-blue);
+    background-color: var(--sky-blue);
     color: white;
     font-size: 16px;
 }
@@ -42,7 +47,7 @@ button.btn-skyBlue {
 }
 
 .header .logo {
-    border-bottom: 2px solid #17C2EC;
+    border-bottom: 2px solid var(--sky-blue);
     width: 60px;
 }
 
@@ -94,7 +99,7 @@ button.btn-skyBlue {
 }
 
 .banner .banner-connent p {
-    color: #17C2EC;
+    color: var(--sky-blue);
     font-size: 16px;
     font-weight: 500;
     padding-bottom: 35px;
@@ -110,7 +115,7 @@ button.btn-skyBlue {
 }
 
 .banner .banner-connent span{
-    color: #17C2EC;
+    color: var(--sky-blue);
 }
 
 .banner .banner-connent p.text {
@@ -166,7 +171,7 @@ button.btn-skyBlue {
 }
 
 .banner .schedule .heading i {
-    color: #17C2EC;
+    color: var(--sky-blue);
     border: 1px solid #c4c4c426;
     background-color: #c4c4c426;
     border-radius: 8px;
@@ -188,7 +193,7 @@ button.btn-skyBlue {
 }
 
 .banner .schedule .item i {
-    color: #17C2EC;
+    color: var(--sky-blue);
     border: 1px solid #c4c4c426;
     background-color: #c4c4c426;
     border-radius: 8px;
@@ -236,23 +241,10 @@ button.btn-skyBlue {
     border-radius: 12px 12px 0 0;
 }
 
-.check-form .head p {
-
-}
-
 .check-form form {
     background-color: #c4c4c426;
     padding: 20px 100px;
     border-radius: 0 0 12px 12px;
-}
-.check-form .head p {
-
-}
-.check-form .head p {
-
-}
-.check-form .head p {
-
 }
 
 .mobile-header {
@@ -281,7 +273,7 @@ button.btn-skyBlue {
     }
 
     .mobile-header .logo {
-        border-bottom: 2px solid #17C2EC;
+        border-bottom: 2px solid var(--sky-blue);
         width: 50px;
     }
 
